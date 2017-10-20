@@ -40,7 +40,7 @@ public class CountryList: UIViewController, UITableViewDelegate, UITableViewData
     override public func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = "Country List"
+        self.title = "Pick a Country"
         self.view.backgroundColor = .white
         
         tableView = UITableView(frame: view.frame)

@@ -17,7 +17,6 @@ class CountryCell: UITableViewCell {
         didSet {
             if let name = country!.name {
                 nameLabel?.text = "\(name)"
-                extensionLabel?.text = "+\(country!.phoneExtension)"
             }
         }
     }
